@@ -53,3 +53,28 @@ table {
 /* -----------------END RESET---------------- */
 
 
+h1 {
+	font-size: 2em;
+	color:black;
+	font-style: bold;
+	font-family:Helvetica,sans-serif;
+}
+h2 {
+	font-size: .8em;
+	color: gray;
+	font-family: Helvetica,sans-serif;
+}
+p {
+	font-size: 1em;
+	color:black;
+	font-family: Helvetica,sans-serif;
+
+}
+.floatleft {
+	float: left;
+	width: 100px;
+}
+.floatleft2 {
+	float: left;
+	width: 100px
+}
