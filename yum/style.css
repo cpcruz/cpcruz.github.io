@@ -50,7 +50,27 @@ table {
 	border-spacing: 0;
 }
 
+h1 {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 2em;
+	coor:black;
 
-/* END RESET */
+}
+
+ul {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 1em;
+	color: black;
+
+}
+
+ol {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 1em;
+	color: black;
+
+}
+
+
 
 
