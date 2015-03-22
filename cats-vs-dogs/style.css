@@ -57,21 +57,38 @@ table {
 
 
 h1 {
-	font-family: Times:;
-	font-size: 40px:;
+	font-family: Times;
+	font-size: 200%;
 	color: black;
 
 }
 p {
-	font-family: Times:;
-	font-size:16px;
+	font-family: Times;
+	font-size: 100%;
 	color: black;
 	
 }
 
-ul {
-	font-family: Times:;
-	font-size: 40px:;
-	color: black:;
+.line-separator{
+
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+
+}
+nav {
+	text-transform: uppercase;
+	font-family: Times;
+	color: black;
+	font-size: 200%;
+
+
+}
+.line-separator{
+
+height:1px;
+background:#717171;
+border-bottom:1px solid #313030;
+
 }
 
