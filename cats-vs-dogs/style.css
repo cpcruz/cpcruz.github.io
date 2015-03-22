@@ -71,7 +71,7 @@ p {
 
 .line-separator{
 
-height:1px;
+height:3px;
 background:#717171;
 border-bottom:1px solid #313030;
 
@@ -87,7 +87,7 @@ nav {
 }
 .line-separator{
 
-height:1px;
+height:3px;
 background:#717171;
 border-bottom:1px solid #313030;
 
