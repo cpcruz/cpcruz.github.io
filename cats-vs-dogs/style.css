@@ -74,30 +74,49 @@ p {
 .line-separator{
 	height:3px;
 	background:#000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 nav {
+	text-align: center;
 	text-transform: uppercase;
 	font-family: Times;
 	color: black;
 	font-size: 200%;
-	font-style: bold;
-}
-
-.circle {
-	width:10px;
-	height:10px;
-	border-radius:50%;
-	color:#fff;
-	line-height:100px;
-	background:#000
+	font-weight: bold;
 }
 
 .line-separator{
 	height:3px;
 	background:#000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
+img.dogsvscats {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px;
+	width: 445px;
+	height: 95px;
+}
+
+img.cat {
+	border: 10px;
+	width: 200px;
+	height: 200px;
+}
+article{
+	display: block;
+}
+
+img.dog {
+	border: 10px;
+	width: 200px;
+	height: 200px;
+}
 span {
 	color: #ff006e;
 }
