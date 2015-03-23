@@ -54,7 +54,9 @@ table {
 /* END RESET */
 
 
-
+a {
+	color: inherit;
+}
 
 h1 {
 	font-family: Times;
