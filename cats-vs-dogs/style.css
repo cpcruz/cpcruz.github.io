@@ -108,8 +108,18 @@ img.cat {
 	width: 200px;
 	height: 200px;
 }
-article{
+
+article.Dog{
 	display: block;
+	position: relative;
+
+
+}
+
+article.Cat {
+	display: block;
+	position: relative;
+
 }
 
 img.dog {
