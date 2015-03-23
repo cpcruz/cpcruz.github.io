@@ -84,6 +84,15 @@ nav {
 	font-style: bold;
 }
 
+.circle {
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	color:#fff;
+	line-height:100px;
+	background:#000
+}
+
 .line-separator{
 	height:3px;
 	background:#000000;
