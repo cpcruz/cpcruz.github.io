@@ -66,15 +66,18 @@ header nav {
 	border-top: solid black;
 	border-bottom: solid black;
 	margin-bottom: 1%;
+	text-transform: uppercase;
 }
 
 nav li {
 	display: inline-block;
 	margin: .1% 2% .1%;
+	text-transform: uppercase;
 }
 nav a {
 	text-decoration: none;
 	color: black;
+	text-transform: uppercase;
 }
 footer a {
 	text-decoration: none;
@@ -89,7 +92,6 @@ article {
 }
 footer {
 	clear: both;
-	background-color: teal;
 }
 article img {
 	width: 40%;
