@@ -56,25 +56,52 @@ table {
 h1 {
 	font-size: 2em;
 	color:black;
-	font-style: bold;
+	font-weight: bold;
 	font-family:Helvetica,sans-serif;
+	padding-bottom: 1%;
 }
 h2 {
 	font-size: .8em;
 	color: gray;
 	font-family: Helvetica,sans-serif;
+	padding-bottom: 4%;
 }
 p {
 	font-size: 1em;
 	color:black;
 	font-family: Helvetica,sans-serif;
+	line-height: 110%;
+	padding-bottom: 3%;
+}
+
+#left-article {
+	float: left;
+	width: 35%;
+	margin: 1%;
 
 }
-.floatleft {
-	float: left;
-	width: 100px;
+
+#left-article p {
+	width: 95%;
 }
-.floatleft2 {
+
+
+#left-llama {
 	float: left;
-	width: 100px
+	margin: 2%;
+}
+
+#right-article {
+	float: left;
+	width: 35%;
+	margin: 1%;
+}
+
+#right-llama {
+	float: left;
+	margin: 2%;
+}
+
+#main-content {
+	margin: 5%;
 }
