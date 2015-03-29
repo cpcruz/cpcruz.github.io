@@ -34,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: Arial;
+	width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -58,31 +59,62 @@ a:link{
 }
 
 #site-wrapper {
-	background-color: #F1FFD4
-
-
+	background-color: #F1FFD4;
+	
 }
 
 #site-header {
+	clear: both;
+	margin-left: 20%;
 
 }
 
 #top-nav {
-	color: #805529
+	color: #805529;
+	clear: both;
+	position: absolute;
+	top: 5px;
+	margin-right: 20%;
+	right: 5px;
+	font-size: 65%;
+
 
 }
 
 #menu-wrapper {
-	background-color: #805529
+	background-color: #805529;
+	clear: both;
 
+	
 }
 
 #main-menu {
-	color: #ffffff
+	color: #ffffff;
+	margin-left: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+
+}
+
+#main-menu li {
+	display: inline;
+	text-transform: uppercase;
+	font-weight: bold;
+	list-style-type: none;
+	width: 100%;
+	padding-right: 20px;
 }
 
 
 #content-wrapper {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	clear: both;
+
 
 }
 
@@ -90,26 +122,105 @@ a:link{
 
 }
 
-#page {
+h1 {
+	color: #805529;
+	line-height: 130%;
+}
+h2 {
+	color: #805529;
+	line-height: 130%;
+}
 
+#page {
+	float: left;
+	width: 45%;
+}
+
+#page h1{
+	font-size: 250%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#page p {
+	font-size: 75%;
+	line-height: 150%;
+	padding-bottom: 1%;
+}
+
+#page h2 {
+	font-size: 120%;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 1%;
 }
 
 #sidebar {
+	color: #805529;
+	float: right;
+	width: 45%;
+	padding-bottom: 3%;
+}
 
+#sidebar h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 150%;
+	padding-top: 5%;
+}
+
+#sidebar li {
+	line-height: 170%;
+	font-size: 72%;
+}
+
+#sidebar ul {
+	padding-bottom: 3%;
 }
 
 #footer-wrapper {
-	background-color: #805529
+	background-color: #805529;
+	clear: both;
+
 }
 
 #site-footer {
-
+	clear: 
 }
 
 #footer-contact {
-
+	width: 10%;
+	margin-left: 20%;
+	margin-right: 0%;
+	float: left;
 }
 
+#footer-contact h1 {
+	color: #c7b774;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 3%;
+	line-height: 150%;
+	clear: both;
+}
+#footer-contact p {
+	width: 85%;
+	font-size: 75%;
+	line-height: 150%;
+	color: #ffffff;
+	clear: both;
+}
 #footer-follow {
+	margin-right: 35%;
+	clear: both;
+	width: 100%;
+}
+#footer-follow h1 {
+	color: #c7b774;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#footer-follow img {
+	float: right;
 
 }

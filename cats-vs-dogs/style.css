@@ -57,89 +57,56 @@ body {
 	width: 80%;
 }
 
-a:link{
-	color: inherit;
+header {
+	
+	background-color: green;
+	text-align: center;
+
+}
+
+
+
+#main-content {
+	background-color: blue;
+	text-align: center;
+}
+
+#main-nav{
+	
+	background-color: yellow;
+	border-top: solid black;
+	border-bottom: solid black;
+
+}
+
+#main-nav li {
+	display: inline-block;
+	margin: 20px;
 	text-decoration: none;
 }
 
-h1 {
-	font-family: Times;
-	font-size: 200%;
-	color: black;
-}
-
-p {
-	font-family: Times;
-	font-size: 100%;
-	color: black;
-}
-
-.line-separator{
-	height:3px;
-	background:#000000;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-nav {
-	text-align: center;
-	text-transform: uppercase;
-	font-family: Times;
-	color: black;
-	font-size: 200%;
-	font-weight: bold;
-}
-
-.line-separator{
-	height:3px;
-	background:#000000;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-img.dogsvscats {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border: 10px;
-	width: 445px;
-	height: 95px;
-}
-
-img.cat {
-	border: 10px;
-	width: 400px;
-	height: 400px;
-}
-
-#Dog{
+article {
 	display: inline-block;
+	margin: 10px;
 	float: left;
-	width: 400px
+	width: 45%;
 }
 
-#Cat {
-	display: inline-block;
+
+footer {
+	clear:both;
+	background-color: teal;
+	width: 100%;
+
+}
+
+
+#wiki {
+	float:left;
+	width: 30%;
+}
+
+#martha {
 	float: right;
-	width: 400px
+	width: 21%;
 }
-
-img.dog {
-	border: 10px;
-	width: 400px;
-	height: 400px;
-}
-span {
-	color: #ff006e;
-}
-
-.line-separator2{
-	height:3px;
-	background:#000000;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	clear: both;
-	position: absolute;
-	bottom: 50px;
-}
-footer {clear: both;}
