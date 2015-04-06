@@ -50,9 +50,9 @@ table {
 /* END RESET */
 
 body {
-	margin:0 auto;
-	width: 80%;
+    margin: 0 auto;
 }
+
 header {
 	margin: 1%;
 	text-align: center;
@@ -83,23 +83,35 @@ footer a {
 	text-decoration: none;
 	color: red;
 }
-article {
-	float: left;
-	width: 40%;
-	display: block;
-	text-align: center;
-	margin: 10px 10px;
+
+.column {
+    float:none;
+    width:30%;
+	display: inline-block;
+	margin: 0 auto;
+    text-align: center;
 }
-footer {
-	clear: both;
-}
+
 article img {
-	width: 400px;
-	height: 400px;
+	height: 20em;
+	height: 20em;
+
 }
 
+.main-content {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
+#wikicommons {
+	float: left;
+	margin-left: 10%;
+}
 
-
-
+#copyright {
+	float: right;
+	margin-right: 10%;
+}

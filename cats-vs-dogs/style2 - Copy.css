@@ -1,5 +1,3 @@
-
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -9,7 +7,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s,0 samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -32,9 +30,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1; 
+	line-height: 1;
 }
-ul {
+ol, ul {
 	list-style: none;
 }
 blockquote, q {
@@ -49,91 +47,68 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* END RESET */
 
-
-h1 {
-	font-family: Trebuchet MS, sans-serif;
-	color:black;
-
-}
-
-#main-content {
-	margin-top: -2%;
-	margin-left: 36%;
-	margin-right: 38%;
-	display: inline-block;
-	width: 100%;
-}
-
-#title {
+header {
+	margin: 1%;
 	text-align: center;
-	padding-top: 2.5%;
-	font-size: 300%;
-	letter-spacing: -4px;
-	padding-bottom: .3%;
 }
-
-.line-separator{
-	height:1px;
-	background:#717171;
-	border-bottom:1px solid #313030;
-	margin-left: 37%;
-	margin-right: 37%;
-}
-
-#ingredients {
-	float: left;
-	width: 15%;
-	margin-top: 3%;
-	display: block;
-	margin-right: 0%;
-	padding-bottom: 30%;
-}
-
-#ingredients h1 {
-	font-size: 170%;
-	letter-spacing: -2px;
-	padding-bottom: 2%;
-}
-#ingredients li {
-	font-size: 85%;
-	margin-bottom: 1%;
-}
-
-#preparation{
-	float: none;
-	display: block;
-	width: 30%;
-	margin-top: 3%;
-	margin-left: 0%;
-}
-
-#steps {
-	margin-left: 1%;
-}
-
-#preparation h1 {
-	font-size: 170%;
-	letter-spacing: -2px;
-	padding-bottom: 2%;
-}
-#preparation li {
+header img {
+	margin-top: 2%;
 	margin-bottom: 2%;
 }
-ul {
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 1em;
-	color: black;
 
+header nav {
+	border-top: solid black;
+	border-bottom: solid black;
+	margin-bottom: 1%;
+	text-transform: uppercase;
 }
 
-ol {
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 1em;
+nav li {
+	display: inline-block;
+	margin: .1% 2% .1%;
+	text-transform: uppercase;
+}
+nav a {
+	text-decoration: none;
 	color: black;
-
+	text-transform: uppercase;
+}
+footer a {
+	text-decoration: none;
+	color: red;
+}
+article {
+	float: left;
+	width: 40%;
+	display: block;
+	margin: 10px 10px;
+}
+footer {
+	clear: both;
+}
+article img {
+	width: 400px;
+	height: 400px;
 }
 
+.main-content {
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
 
+#wikicommons {
+	float: left;
+	clear: both;
+}
+
+#copyright {
+	float: right;
+	clear: both;
+
+}
 
 
