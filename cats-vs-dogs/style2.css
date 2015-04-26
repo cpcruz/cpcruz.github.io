@@ -65,8 +65,8 @@ header {
 }
 
 img {
-	max-height: 40%;
-	max-width: 40%;
+	max-height: 20%;
+	max-width: 20%;
 }
 
 #main-content img {width: 100%;}
