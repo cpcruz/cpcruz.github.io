@@ -64,6 +64,10 @@ header {
 
 }
 
+img {
+	height: 800px;
+	width: 528px;
+}
 
 #main-content img {width: 100%;}
 
