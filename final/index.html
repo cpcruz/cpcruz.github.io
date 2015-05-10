@@ -8,26 +8,33 @@
   <body>
   	<header id="top-banner">
   		<link rel="stylesheet" type="text/css" href="tcp.css">
-      <img src="images/websafelogo.png" alt="oops" id="header-logo">
-      <h1 id="tcp-header">Tom Cruz Productions</h1>
-  		<nav id="main-nav">
-  			<ul>
-  				<li><a href="index.html">Work</a></li>
-  				<li><a href="about.html">About</a></li>
-  				<li><a href="contact.html">Contact</a></li>
-  			</ul>
-  		</nav>
+     
+<nav class="fixed-nav-bar">
+
+  </div>
+  <div id='nav-links'>
+      <ul>
+          <li><a href="contact.html">CONTACT</a></li>
+             <li>&nbsp;|&nbsp;</li>
+          <li><a href="about.html">ABOUT</a></li>
+             <li>&nbsp;|&nbsp;</li>
+          <li><a href="index.html">WORK</a></li>
+          <li id="tcp"><a href="index.html">Tom Cruz Productions</a></li>
+      </ul> <!-- Fixed navigation bar content -->
+  </div>
+</nav>
+  		
   	</header>
 
   	<div id="main-content">
   		<ul>
         <li>
           <a class="fancybox-media" href="http://player.vimeo.com/video/110861720" rel="group"><img id="top-video" src="images/main-video.png" alt="oops"></a></li>
-
+        <div id="sub-videos">
           <li>
             <a class="fancybox-media" href="http://www.youtube.com/embed/d4qEG9DUQYg" rel="group"><img src="images/duncan.png" alt="oops"></a></li>
           <li>
-      		  <a href=""></a><img src="images/boston-trinity.png" alt="oops"></li>
+      		  <a class="fancybox-media" href="https://player.vimeo.com/video/122519566" rel="group"><img src="images/boston-trinity.png" alt="oops"></a></li>
           <li>
       		  <img src="images/dancing-lion.png" alt="oops"></li>
           <li>
@@ -36,13 +43,13 @@
       		  <img src="images/npr-contest.png" alt="oops"></li>
           <li>
       		  <img src="images/sofar-will.png" alt="oops"></li>
- 
+        </div>
       </ul>
     </div>
 
 
   	<footer id="footer">
-  		Tom Cruz Productions &copy;2015
+  		TOM CRUZ PRODUCTIONS &copy;2015
   	</footer>
 
 <!-- Add jQuery library -->
