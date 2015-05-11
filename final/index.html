@@ -15,10 +15,9 @@
   <div id='nav-links'>
       <ul>
           <li><a href="contact.html">CONTACT</a></li>
+          
              <li>&nbsp;|&nbsp;</li>
-          <li><a href="about.html">ABOUT</a></li>
-             <li>&nbsp;|&nbsp;</li>
-          <li><a href="index.html">WORK</a></li>
+          <li id="active"><a href="index.html">WORK</a></li>
           <li id="tcp"><a href="index.html">Tom Cruz Productions</a></li>
       </ul> <!-- Fixed navigation bar content -->
   </div>
@@ -27,22 +26,23 @@
   	</header>
 
   	<div id="main-content">
+
   		<ul>
         <li>
-          <a class="fancybox-media" href="http://player.vimeo.com/video/110861720" rel="group"><img id="top-video" src="images/main-video.png" alt="oops"></a></li>
+          <a id="contenthover" class="fancybox-media" href="http://player.vimeo.com/video/110861720" rel="group"><div data-content="Here is a caption" class="image"><img id="top-video" src="images/main-video.png" alt="oops"></div></a></li>
         <div id="sub-videos">
           <li>
-            <a class="fancybox-media" href="http://www.youtube.com/embed/d4qEG9DUQYg" rel="group"><img src="images/duncan.png" alt="oops"></a></li>
+            <a id="contenthover" class="fancybox-media" href="http://www.youtube.com/embed/d4qEG9DUQYg" rel="group"><img src="images/duncan.png" alt="oops"></a></li>
           <li>
-      		  <a class="fancybox-media" href="https://player.vimeo.com/video/122519566" rel="group"><img src="images/boston-trinity.png" alt="oops"></a></li>
+      		  <a id="contenthover" class="fancybox-media" href="https://player.vimeo.com/video/122519566" rel="group"><img src="images/boston-trinity.png" alt="oops"></a></li>
           <li>
-      		  <a class="fancybox-media" href="https://player.vimeo.com/video/111306827" rel="group"><img src="images/dancing-lion.png" alt="oops"></a></li>
+      		  <a id="contenthover" class="fancybox-media" href="https://player.vimeo.com/video/111306827" rel="group"><img src="images/dancing-lion.png" alt="oops"></a></li>
           <li>
-      		  <a class="fancybox-media" href="https://www.youtube.com/embed/2Jalx6JsR5o" rel="group"><img src="images/sofar-mia.png" alt="oops"></a></li>
+      		  <a id="contenthover" class="fancybox-media" href="https://www.youtube.com/embed/2Jalx6JsR5o" rel="group"><img src="images/sofar-mia.png" alt="oops"></a></li>
           <li>
-      		  <a class="fancybox-media" href="https://www.youtube.com/embed/cP4rI50eQ18" rel="group"><img src="images/npr-contest.png" alt="oops"></a></li>
+      		  <a id="contenthover" class="fancybox-media" href="https://www.youtube.com/embed/cP4rI50eQ18" rel="group"><img src="images/npr-contest.png" alt="oops"></a></li>
           <li>
-      		  <a class="fancybox-media" href="https://www.youtube.com/embed/J0-hIbwxW6M" rel="group"><img src="images/sofar-will.png" alt="oops"></a></li>
+      		  <a id="contenthover" class="fancybox-media" href="https://www.youtube.com/embed/J0-hIbwxW6M" rel="group"><img src="images/sofar-will.png" alt="oops"></a></li>
         </div>
       </ul>
     </div>
@@ -81,7 +81,12 @@ $(document).ready(function() {
   });
 });
 </script>
-    
+<script>
+$('#d1').contenthover({
+    overlay_background:'#000',
+    overlay_opacity:0.8
+});
+</script
     
     </body>
 </html>

@@ -13,8 +13,7 @@
       <ul>
           <li><a href="contact.html">CONTACT</a></li>
              <li>&nbsp;|&nbsp;</li>
-          <li><a href="about.html">ABOUT</a></li>
-             <li>&nbsp;|&nbsp;</li>
+         
           <li><a href="index.html">WORK</a></li>
           <li id="tcp"><a href="index.html">Tom Cruz Productions</a></li>
       </ul> <!-- Fixed navigation bar content -->
@@ -22,6 +21,33 @@
 </nav>
   		</header>
 
+      <div id="contact-form">
+ <h1>Send us an email at tomcruzproductions@gmail.com!</h1>    
+
+<form id="contact" method="post" action="somewhere.php">
+<fieldset>    
+
+  <label for="name">Name</label>
+  <input type="text" name="contact[name]" placeholder="your name">
+
+  <label for="email">Email</label>
+  <input type="email" name="contact[email]" placeholder="your email address">
+
+  <label for="phone">Message</label>
+  <textarea name="contact[message]" placeholder=" your message"></textarea>
+
+
+<input type="submit" name="submit" id="submit" value="Send Message" />
+
+</fieldset>
+</form>
+
+</div>
+<style>
+label {display:block;}
+input, textarea { display:block;}
+</style>
+</div>
        <!--PHP Contact Form Goes Here-->
 
 

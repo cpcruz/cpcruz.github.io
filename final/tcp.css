@@ -79,6 +79,11 @@ table {
 	height: 97%;
 }
 
+#active a
+{
+text-decoration: underline;
+}
+
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -179,3 +184,60 @@ h1 {
 	font-family: Montserrat-Regular;
 	font-size: 100%;
 }
+
+#contact-form {
+	
+	margin-left: 38%;
+	margin-top: 8%;
+	width: 25%;
+	background-color: white;
+	padding: 2%;
+	border: solid;
+	border-radius: 20px;
+	color: #000000;
+}
+
+#info {
+	float: left;
+	width: 100%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+
+}
+
+#contact-form h1 {
+	margin-bottom: 2%;
+
+}
+
+#submit {
+
+	font-family: "Montserrat-Regular";
+}
+
+
+
+input {
+	font-family: "Montserrat-Regular";
+}
+
+
+textarea {
+	
+	font-family: "Montserrat-Regular";
+	padding: 27.5%;
+}
+
+
+
+label {
+	color: #000000;
+	font-family: "Montserrat-Regular";
+	padding-top: 2%;
+}
+
+
+fieldset {
+	padding-top: 2.5%;
+}
+/*overlay hover*/
