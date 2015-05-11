@@ -132,6 +132,9 @@ text-decoration: underline;
   font-style: normal;
 }
 
+.fixed-nav-bar {
+	height: 7%;
+}
 
 .fixed-nav-bar li {
 	display: inline;
