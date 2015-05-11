@@ -185,39 +185,47 @@ h1 {
 	font-size: 100%;
 }
 
-#contact-form {
-	
-	margin-left: 38%;
-	margin-top: 8%;
-	width: 25%;
-	background-color: white;
-	padding: 2%;
-	border: solid;
-	border-radius: 20px;
-	color: #000000;
-}
-
 #info {
 	float: left;
 	width: 100%;
 	padding-top: 4%;
 	padding-bottom: 4%;
+	
+
 
 }
 
 #contact-form h1 {
-	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+
+}
+
+#contact-form {
+	
+	
+	margin: 0 auto;
+	width: 50%;
+	background-color: white;
+	border: solid;
+	border-radius: 20px;
+	padding: 2%;
+	opacity: 0.7;
+	color: #000000;
+	margin-top: 100px;
 
 }
 
 #submit {
-
+	margin-top: 2%;
 	font-family: "Montserrat-Regular";
+	padding: .5%;
 }
 
 
 
 input {
+	
 	font-family: "Montserrat-Regular";
 }
 
@@ -225,19 +233,27 @@ input {
 textarea {
 	
 	font-family: "Montserrat-Regular";
-	padding: 27.5%;
 }
 
 
 
 label {
-	color: #000000;
-	font-family: "Montserrat-Regular";
-	padding-top: 2%;
+	color: #000;
+	padding-bottom: 1%;
+	padding-top: 3.5%;
+	font-family: "Montserrat-Regular"
 }
 
+textarea{
+	padding: 20%;
+
+
+}
 
 fieldset {
-	padding-top: 2.5%;
+	padding-left: 10%;
+		
+}
+
 }
 /*overlay hover*/
